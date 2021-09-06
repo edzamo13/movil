@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlesActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:text="Boton con lineas"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="15dp"
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="319dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="-4dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxChapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="227dp"
+        android:onClick="tipoAveriaClicked"
+        android:text="Chapa y pintura"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCristal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="188dp"
+        android:onClick="tipoAveriaClicked"
+        android:text="Rotura cristal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMecanica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="152dp"
+        android:onClick="tipoAveriaClicked"
+        android:text="Avería mecánica" />
+
+
+</RelativeLayout>

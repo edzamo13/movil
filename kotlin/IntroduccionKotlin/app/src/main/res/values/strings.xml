@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CursoKotlin</string>
+    <string name="roll">Roll</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_fuction_extencion">FuctionExtencionActivity</string>
+
+<!--
+String homework for the Android developer  prototype of calculator
+-->
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="amazing_service">Amazing (20%)</string>
+    <string name="good_service">Good (18%)</string>
+    <string name="ok_service">Okay (15%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="calculate">Calculate</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+</resources>
