@@ -6,51 +6,37 @@ Projects made in Angular for the learning of Angular framework
 
 
 ## Table of Contents
-1. [angular-desde-cero](#SpringBootMVC)
-2. [angular8](#SpringCore5)
-3. [aweather](#Secured-spring-rest-api)
-4. [SpringLearn](#SpringLearn)
+1. [photo-gallery](#photo-gallery)
+2. [example](#example)
+3. [example 2](#example2)
 5. [Installation](#Installation)
 6. [Collaboration](#collaboration)
 7. [FAQs](#faqs)
 ***
-### SpringBootMVC
-A list of examples in Spring boot MVC for example:
-* Create of Controladores
-* Repository
-* Create of Controladores
-* Crud , Jpa
-* MVC con thymeleaf
-* [Spring boot MVC](https://example.com): Version 1234
+### photo-gallery
+A example in ionic with concept basic:
+* Some buttons, view,Textt, ect,
+* router Navigate
 ***
-## springCore5
-A list of examples in Spring boot MVC for example:
+## example
+A list of examples ixxxxxx:
 * Bean
 * Scand Component
-* Autowired
-* MVC with thymeleaf
 ***
-## SpringLearn
-A list of examples in Spring boot MVC for example:
+## example2
+A list of examples ixxxx:
 * In construction
 * 
 * 
 * 
 ***
-## Secured-spring-rest-api
-A list of examples in Spring boot MVC for example:
-* Authentication Basic
-* JWT
-* OAuth2
-* 
-***
 ## Installation
 A little intro about the installation. 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ npm install -g @ionic/cli
+$ npm uninstall -g ionic
+$ pm install -g @ionic/cli
+$ ionic start
 ```
 Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
